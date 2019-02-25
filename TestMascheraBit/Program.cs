@@ -23,6 +23,7 @@ namespace TestMascheraBit
                 if (BitConverter.IsLittleEndian)
                 {
                     Array.Reverse(byteArray);
+                    Console.WriteLine("Test");
                 }
 
                 BitArray b = new BitArray(byteArray);
